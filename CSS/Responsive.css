@@ -1,0 +1,72 @@
+/* UTILITIES CLASSES */
+.h-primary{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+h-secondary{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+    font-size: 0.9rem;
+}
+/* NAVIGATION SECTION */
+#navbar{
+    flex-direction: column;
+}
+#navbar img{
+    height: 2vh;
+}
+#navbar ul li a {
+    font-size: 0.9rem;
+    padding: 1vh 1vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* HOME SECTION */
+#home{
+    height: 395px;
+}
+#home::before{
+    height: 165%;
+    top: -250px;
+}
+#home h1{
+    align-items: flex-start;
+}
+#home p{
+    font-size: 0.9rem;
+}
+/* SERVICES SECTION */
+#services{
+    flex-direction: column;
+}
+#services .box{
+    margin: o;
+    padding: 1vh;
+    border: 2px solid gray;
+    background-color: rgba(135, 131, 131, 0.4);
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* CLIENTS SECTION */
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    width: 15vh;
+    height: 15vh;
+}
+/* CONTACT US SECTION */
+#contact-box form{
+    width: 80%;
+}
+#submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* FOOTER */
+footer{
+    font-family: 'Courier New', Courier, monospace;
+}
